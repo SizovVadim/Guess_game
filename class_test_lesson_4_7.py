@@ -6,9 +6,9 @@ class Employee:
         self.gender = gender_value
 
 # Создайте экземпляры класса Employee с различными значениями атрибутов.
-employee1 = Employee(first_name_value = 'Роберт',
-                    second_name_value = 'Крузо',
-                    gender_value = 'м'
+employee1 = Employee(first_name_value = input('Ваше имя: '),
+                    second_name_value = input('Ваша фамилия: '),
+                    gender_value = input('Укажите пол: ')
 
 )
 employee2 = Employee(first_name_value = 'Роберт',
